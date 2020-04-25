@@ -1,0 +1,13 @@
+{
+  "name": "robert-twitter-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "lodash.sample": "^4.2.1",
+    "node-cron": "^2.0.3",
+    "twitter": "^1.7.1"
+  }
+}
