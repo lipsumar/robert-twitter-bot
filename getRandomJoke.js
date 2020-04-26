@@ -1,7 +1,7 @@
 const sample = require('lodash.sample')
 const axios = require('axios');
 const automotronClient = axios.create({
-  baseURL: 'https://automotron-v2.lipsumar.io'
+  baseURL: process.env.AUTOMOTRON_BASE_URL
 })
 
 async function getGenerators(){
