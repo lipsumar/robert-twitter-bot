@@ -22,4 +22,4 @@ async function tweetJoke() {
   }
 }
 
-cron.schedule('* 14,19 * * *', tweetJoke);
+cron.schedule('0 14,19 * * *', tweetJoke);
