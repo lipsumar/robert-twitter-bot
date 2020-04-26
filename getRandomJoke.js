@@ -16,7 +16,7 @@ async function runGenerator(generatorId){
 
 async function getRandomJoke(){
   const generators = await getGenerators();
-  const generator = sample(generators);
+  const generator = sample(generators.filter(g => g._id !== '1LlENwJRk'));
   const generated = await runGenerator(generator._id);
   return generated.text;
 }
